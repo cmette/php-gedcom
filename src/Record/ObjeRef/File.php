@@ -14,6 +14,8 @@
 
 namespace Gedcom\Record\ObjeRef;
 
+use Gedcom\Record\ObjeRef\File\Form;
+
 /**
  * Class Refn.
  */
@@ -24,9 +26,9 @@ class File extends \Gedcom\Record
      */
     protected $_file;
 
-    /**
-     * @var PhpRecord\ObjeRef\File\Form
-     */
+    /** @var Form $_form */
     protected $_form;
     protected $_titl;
+
+    protected $_date;
 }

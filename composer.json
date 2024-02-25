@@ -1,9 +1,9 @@
 {
-    "name": "laravel-liberu/php-gedcom",
+    "name": "cmette/php-gedcom",
     "description": "A GEDCOM file parser (read + write) for PHP 8.0+",
     "type": "library",
     "keywords": ["gedcom","parser"],
-    "homepage": "http://github.com/familytree365/php-gedcom",
+    "homepage": "http://github.com/cmette/php-gedcom",
     "license": "MIT",
     "require": {
         "php": ">=8.2"
